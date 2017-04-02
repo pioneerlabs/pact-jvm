@@ -96,6 +96,5 @@ object RootBuild extends Build {
 
     lazy val plugin = p("pact-jvm-provider-sbt")
 
-    lazy val consumerSbt = p("pact-jvm-consumer-sbt")
 
 }

@@ -1,5 +1,0 @@
-
-dependencies {
-    compile project(":pact-jvm-provider_${project.scalaVersion}"),
-      "org.specs2:specs2-core_${project.scalaVersion}:${project.specs2Version}"
-}
