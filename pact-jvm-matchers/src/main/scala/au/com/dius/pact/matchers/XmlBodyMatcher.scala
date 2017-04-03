@@ -2,6 +2,7 @@ package au.com.dius.pact.matchers
 
 import au.com.dius.pact.model._
 import com.typesafe.scalalogging.StrictLogging
+import io.pioneerlabs.microtest.pact.model.{HttpPart, OptionalBody}
 
 import scala.xml._
 

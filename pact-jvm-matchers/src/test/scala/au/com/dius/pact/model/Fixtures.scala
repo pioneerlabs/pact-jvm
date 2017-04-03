@@ -2,6 +2,8 @@ package au.com.dius.pact.model
 
 import java.util
 
+import io.pioneerlabs.microtest.pact.model._
+
 import scala.collection.JavaConversions
 
 object Fixtures {

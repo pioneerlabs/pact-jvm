@@ -1,5 +1,7 @@
 package au.com.dius.pact.model
 
+import io.pioneerlabs.microtest.pact.model.Response
+
 sealed trait ResponseMatch
 case object FullResponseMatch extends ResponseMatch
 case class ResponseMismatch(mismatches: Seq[ResponsePartMismatch]) extends ResponseMatch

@@ -1,6 +1,7 @@
 package au.com.dius.pact.model
 
 import com.typesafe.scalalogging.StrictLogging
+import io.pioneerlabs.microtest.pact.model.{Request, RequestResponseInteraction, RequestResponsePact, Response}
 
 import scala.collection.JavaConversions
 

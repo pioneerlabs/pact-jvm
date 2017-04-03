@@ -1,5 +1,10 @@
 package au.com.dius.pact.model
 
+import io.pioneerlabs.microtest.pact.model.OptionalBody
+import io.pioneerlabs.microtest.pact.model.PactReader
+import io.pioneerlabs.microtest.pact.model.Request
+import io.pioneerlabs.microtest.pact.model.RequestResponseInteraction
+import io.pioneerlabs.microtest.pact.model.Response
 import scala.collection.JavaConversions
 import spock.lang.Specification
 

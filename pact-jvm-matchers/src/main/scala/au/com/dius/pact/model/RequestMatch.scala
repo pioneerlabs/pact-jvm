@@ -1,5 +1,7 @@
 package au.com.dius.pact.model
 
+import io.pioneerlabs.microtest.pact.model.Interaction
+
 sealed trait RequestMatch extends Ordered[RequestMatch] {
   def allMatched = false
   

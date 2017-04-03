@@ -3,8 +3,8 @@ package au.com.dius.pact.matchers
 @SuppressWarnings(['UnusedImport', 'DuplicateImport'])
 import au.com.dius.pact.model.DiffConfig
 import au.com.dius.pact.model.DiffConfig$
-import au.com.dius.pact.model.OptionalBody
-import au.com.dius.pact.model.Request
+import io.pioneerlabs.microtest.pact.model.OptionalBody
+import io.pioneerlabs.microtest.pact.model.Request
 import spock.lang.Specification
 
 class TypeMatcherSpec extends Specification {

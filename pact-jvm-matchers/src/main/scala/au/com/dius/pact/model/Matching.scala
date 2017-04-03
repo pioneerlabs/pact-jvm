@@ -6,6 +6,7 @@ import au.com.dius.pact.matchers._
 import au.com.dius.pact.model.RequestPartMismatch._
 import au.com.dius.pact.model.ResponsePartMismatch._
 import com.typesafe.scalalogging.StrictLogging
+import io.pioneerlabs.microtest.pact.model.{HttpPart, OptionalBody, Request}
 
 import scala.collection.JavaConversions
 import scala.collection.immutable.TreeMap

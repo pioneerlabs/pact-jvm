@@ -1,6 +1,7 @@
 package au.com.dius.pact.matchers
 
 import au.com.dius.pact.model._
+import io.pioneerlabs.microtest.pact.model.{OptionalBody, Request}
 import org.junit.runner.RunWith
 import org.specs2.mutable.Specification
 import org.specs2.runner.JUnitRunner

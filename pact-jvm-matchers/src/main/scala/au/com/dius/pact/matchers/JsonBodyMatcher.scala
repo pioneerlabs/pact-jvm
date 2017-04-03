@@ -3,6 +3,7 @@ package au.com.dius.pact.matchers
 import au.com.dius.pact.matchers.util.JsonUtils
 import au.com.dius.pact.model._
 import com.typesafe.scalalogging.StrictLogging
+import io.pioneerlabs.microtest.pact.model.{HttpPart, OptionalBody}
 
 class JsonBodyMatcher extends BodyMatcher with StrictLogging {
 
